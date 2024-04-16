@@ -1,0 +1,40 @@
+.task-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.task-list li input {
+    margin-right: 10px;
+    accent-color: rgb(59, 197, 117);
+}
+
+.task-list li .list-item {
+   flex-grow: 1;
+}
+
+.task-list li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.task-list li button:hover {
+    background-color: #da190b;
+}
