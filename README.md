@@ -22,7 +22,7 @@ Node.js and npm installed on your machine.
 
 1. Clone the Repository: <br/>
 bash <br/>
-___git clone https://github.com/Dinesh-Kumar-Tanti/To-Do-Application
+&nbsp&nbspgit clone https://github.com/Dinesh-Kumar-Tanti/To-Do-Application
 
 2. Navigate to the Project Directory:<br/>
 bash<br/>
