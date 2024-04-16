@@ -12,39 +12,41 @@ This is a simple to-do app built with React. It allows users to add tasks, delet
 ## Build Tools
 1. Vite
 
-## Components
-1. App
-   The main component that renders the ToDo component.
-2. ToDo
-   The main component that handles the state of tasks and renders the TaskInput and TaskList components.
-   a.   Props
-   None
-   b.   State
-   tasks: An array of task objects, each containing an id, name, and completed property.
-   c.   Methods
-        handleAddTask: A function that handles adding a new task to the tasks state array.
-        handleDeleteTask: A function that handles deleting a task from the tasks state array.
-        handleToggleCompleted: A function that handles toggling a task's completion status in the tasks state array.
+# React Application Setup and Run Guide
+This repository contains a React application. Follow these instructions to set it up and run it on your local machine.
 
-3. TaskInput
-   A component that renders an input field and a button for adding tasks.
+## Prerequisites
+Node.js and npm installed on your machine. You can download them from here.
+Setup Instructions
+Clone the Repository:
+bash
+git clone https://github.com/your-username/your-repo.git
 
-Props
-   onAddTask: A function that handles adding a new task to the parent component's tasks state array.
-State
-   input: A string that stores the value of the input field.
-Methods
-   handleAddTask: A function that calls the onAddTask prop function with the current value of the input state variable.
+Navigate to the Project Directory:
+bash
+cd your-repo
 
-4. TaskList
-   A component that renders a list of tasks.
+Install Dependencies:
+npm install
 
-Props
-   tasks: An array of task objects, each containing an id, name, and completed property.
-   onDeleteTask: A function that handles deleting a task from the parent component's tasks state array.
-   onToggleCompleted: A function that handles toggling a task's completion status in the parent component's tasks state array.
-Methods
-   None
+Running the Application
+Once you've installed the dependencies, you can run the application using the following command:
 
-## Usage
-To use this app, simply add tasks using the input field and button. Click on a task to toggle its completion status. Click on the "Delete" button to delete a task.
+bash
+npm start
+This command will start a development server and open the application in your default web browser.
+
+Building the Application for Production
+If you want to build the application for production, you can use the following command:
+
+bash
+npm run build
+This command will create an optimized production build of your application in the build directory.
+
+## Contributing
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push the branch to your fork.
+4. Submit a pull request.
