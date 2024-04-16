@@ -18,7 +18,7 @@ This repository contains a React application. Follow these instructions to set i
 ## Prerequisites
 Node.js and npm installed on your machine.
 
-## Setup Instructions
+# Setup Instructions
 
 1. Clone the Repository: <br/>
 bash <br/>
@@ -26,7 +26,7 @@ bash <br/>
 
 2. Navigate to the Project Directory:<br/>
 bash<br/>
-    cd your-repo
+    cd To-Do-Application-main
 
 3. Install Dependencies:<br/>
     npm install
@@ -34,7 +34,7 @@ bash<br/>
 4. Running the Application<br/>
 Once you've installed the dependencies, you can run the application using the following command:<br/>
 bash<br/>
-    npm start<br/>
+    npm run dev<br/>
 This command will start a development server and open the application in your default web browser.
 
 5. Building the Application for Production<br/>
