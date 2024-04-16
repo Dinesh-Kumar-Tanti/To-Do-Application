@@ -9,6 +9,9 @@ This is a simple to-do app built with React. It allows users to add tasks, delet
 ## Tech Stack
 1. React
 
+## Build Tools
+1. Vite
+
 ## Components
 1. App
    The main component that renders the ToDo component.
