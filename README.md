@@ -16,29 +16,29 @@ This is a simple to-do app built with React. It allows users to add tasks, delet
 This repository contains a React application. Follow these instructions to set it up and run it on your local machine.
 
 ## Prerequisites
-Node.js and npm installed on your machine. You can download them from here.
-Setup Instructions
-Clone the Repository:
-bash
-git clone https://github.com/your-username/your-repo.git
+Node.js and npm installed on your machine.
 
-Navigate to the Project Directory:
+## Setup Instructions
+
+1. Clone the Repository:
+bash
+git clone https://github.com/Dinesh-Kumar-Tanti/To-Do-Application
+
+2. Navigate to the Project Directory:
 bash
 cd your-repo
 
-Install Dependencies:
+3. Install Dependencies:
 npm install
 
-Running the Application
+4. Running the Application
 Once you've installed the dependencies, you can run the application using the following command:
-
 bash
 npm start
 This command will start a development server and open the application in your default web browser.
 
-Building the Application for Production
+5. Building the Application for Production
 If you want to build the application for production, you can use the following command:
-
 bash
 npm run build
 This command will create an optimized production build of your application in the build directory.
