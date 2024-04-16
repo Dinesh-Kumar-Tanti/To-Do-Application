@@ -2,26 +2,23 @@
 This is a simple to-do app built with React. It allows users to add tasks, delete tasks, and toggle task completion.
  
 ## Features
-### Add tasks
-### Delete tasks
-### Toggle task completion
+1. Add tasks
+2. Delete tasks
+3. Toggle task completion
 
 ## Tech Stack
-### React
+1. React
 
 ## Components
-### App
+1. App
 The main component that renders the ToDo component.
-
-### ToDo
+2. ToDo
 The main component that handles the state of tasks and renders the TaskInput and TaskList components.
-
-Props
+a. Props
 None
-
-State
+b. State
 tasks: An array of task objects, each containing an id, name, and completed property.
-Methods
+c. Methods
 handleAddTask: A function that handles adding a new task to the tasks state array.
 handleDeleteTask: A function that handles deleting a task from the tasks state array.
 handleToggleCompleted: A function that handles toggling a task's completion status in the tasks state array.
