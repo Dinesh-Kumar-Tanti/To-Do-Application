@@ -5,6 +5,13 @@
     width: 400px;
 }
 
+@media(max-width: 450px){
+    .task-list ul{
+        width: 300px;
+    }
+}
+
+
 .task-list li {
     display: flex;
     align-items: center;
