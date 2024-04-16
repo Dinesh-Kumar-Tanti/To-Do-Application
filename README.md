@@ -26,21 +26,21 @@ bash <br/>
 
 2. Navigate to the Project Directory:<br/>
 bash<br/>
-___cd your-repo
+    cd your-repo
 
 3. Install Dependencies:<br/>
-___npm install
+    npm install
 
 4. Running the Application<br/>
 Once you've installed the dependencies, you can run the application using the following command:<br/>
 bash<br/>
-___npm start<br/>
+    npm start<br/>
 This command will start a development server and open the application in your default web browser.
 
 5. Building the Application for Production<br/>
 If you want to build the application for production, you can use the following command:<br/>
 bash<br/>
-___npm run build<br/>
+    npm run build<br/>
 This command will create an optimized production build of your application in the build directory.
 
 ## Contributing
