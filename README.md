@@ -20,27 +20,27 @@ Node.js and npm installed on your machine.
 
 ## Setup Instructions
 
-1. Clone the Repository:
-bash
-git clone https://github.com/Dinesh-Kumar-Tanti/To-Do-Application
+1. Clone the Repository: <br/>
+bash <br/>
+___git clone https://github.com/Dinesh-Kumar-Tanti/To-Do-Application
 
-2. Navigate to the Project Directory:
-bash
-cd your-repo
+2. Navigate to the Project Directory:<br/>
+bash<br/>
+___cd your-repo
 
-3. Install Dependencies:
-npm install
+3. Install Dependencies:<br/>
+___npm install
 
-4. Running the Application
-Once you've installed the dependencies, you can run the application using the following command:
-bash
-npm start
+4. Running the Application<br/>
+Once you've installed the dependencies, you can run the application using the following command:<br/>
+bash<br/>
+___npm start<br/>
 This command will start a development server and open the application in your default web browser.
 
-5. Building the Application for Production
-If you want to build the application for production, you can use the following command:
-bash
-npm run build
+5. Building the Application for Production<br/>
+If you want to build the application for production, you can use the following command:<br/>
+bash<br/>
+___npm run build<br/>
 This command will create an optimized production build of your application in the build directory.
 
 ## Contributing
